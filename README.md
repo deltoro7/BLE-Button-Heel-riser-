@@ -23,6 +23,6 @@ Peripheral_pole.ino & Central_heel_riser.ino
 
 ### Working Prototype Images 
 
-![alt text](ole_act.JPG)
+![alt text](pole_act.JPG)
 
 ![alt text](heel_riser_elc.JPG)
