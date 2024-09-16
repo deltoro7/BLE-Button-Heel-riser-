@@ -4,4 +4,4 @@ Senior Design project final code; 1 BLE central &amp; 1 BLE peripheral to move a
 
 ### Heading of the markdown 
 
-![alt text](heel_wire.jpg) 
+![alt text](heel_wire.JPG) 
