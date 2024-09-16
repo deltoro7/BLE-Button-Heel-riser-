@@ -14,3 +14,7 @@ The basis of this project was to create a easier method to lifting an Back Count
 ![alt text](heel_wire.JPG) 
 
 ![alt text](pole_wire.JPG)
+
+The automatic heel riser works in a simple manner, the user is able to press the up or down button on the pole mounted unit (CENTRAL). Once activated the Arduino inside the heel riser (peripheral) recieves the Bluetooth signal as a hex (1 or 0). The BLE library allows both units to save power by remaining in a low power state until a button is pressed and recieved. 
+
+Once a button press is received the Arduino inside the heel riser communicates with the DC motor driver to either move in the forward or reverse direction. The code operates such that each button press actiavtes a time step. Where the timesteps control how long the motor turns, this can be tuned to meet unique hight settings. Currently its set up to be a 3 stage manner. 
